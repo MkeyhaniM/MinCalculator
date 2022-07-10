@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+section div#calc {
+    width: 530px;
+    height: 575px;
+    margin: 200px auto;
+    padding: 10px;
+    border-radius: 7px;
+    background: rgb(208, 71, 184);
+    background: radial-gradient(circle, rgba(208, 71, 184, 1) 13%, rgba(0, 212, 255, 1) 100%);
+}
+
+section div#calc div#parentInput {
+    width: 100%;
+    margin: 5px;
+    display: inline-block;
+}
+
+section div#calc div#parentInput div {
+    width: 96%;
+    height: 40px;
+    background-color: rgba(124, 119, 137, 0.12);
+    display: inline-block;
+    font-size: 23px;
+    padding-left: 10px;
+    border-radius: 7px;
+    border: 2px solid silver;
+    line-height: 35px;
+}
+
+section div#calc div#sum {
+    border-radius: 7px;
+    width: 97%;
+    display: block;
+    height: 40px;
+    font-size: 22px;
+    line-height: 42px;
+    padding-left: 5px;
+    background-color: rgba(124, 119, 137, 0.12);
+    margin: 10px 0 10px 5px;
+    border: 2px solid #d2cbaf;
+}
+
+section div#calc div.a {
+    font-family: "Comic Sans MS";
+    width: 120px;
+    height: 72px;
+    border-radius: 7px;
+    border: 1px solid silver;
+    line-height: 65px;
+    margin: 4px 0 12px 6px;
+    font-size: 26px;
+    background-color: rgba(124, 119, 137, 0.12);
+    text-align: center;
+    display: inline-block;
+    box-shadow: 5px 5px 5px black;
+    transition: all 0.6s ease;
+}
+
+section div#calc div.a:hover {
+    cursor:pointer;
+    background-color: rgba(124, 119, 137, 0.52);
+}
+
+section div#calc div.a:active {
+    border: inset;
+    font-size: 19px;
+    width: 115px;
+    height: 70px;
+}
